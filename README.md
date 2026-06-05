@@ -1,102 +1,233 @@
 # ComPDF SDK for Web (Vue.js Example)
 
-As part of the KDAN ecosystem, [ComPDF SDK for Web](https://www.compdf.com/web?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit) is a powerful JavaScript-based PDF Library with a slick out-of-the-box responsive UI, which is ideal for developers looking to enhance web apps with powerful PDF features. It enables you to develop a Webviewer in multiple frameworks, including [Vanilla JavaScript](https://www.compdf.com/guides/pdf-sdk/web/make-a-program#integrate-into-a-vanilla-javascript-project?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [Vue.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/vue?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [React](https://www.compdf.com/guides/pdf-sdk/web/frameworks/react?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [Angular](https://www.compdf.com/guides/pdf-sdk/web/frameworks/angular?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [Next.js,](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nextjs?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit) [Nuxt.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nuxtjs?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [Svelte](https://www.compdf.com/guides/pdf-sdk/web/frameworks/svelte?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), etc.
+As part of the KDAN ecosystem, [ComPDF SDK for Web](https://www.compdf.com/web?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs) is a powerful JavaScript-based PDF library that enables developers to easily add PDF viewing, annotation, editing, and more to their applications across multiple frameworks including [Vanilla JavaScript](https://www.compdf.com/guides/pdf-sdk/web/make-a-program#integrate-into-a-vanilla-javascript-project?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs), [Vue.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/vue?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs), [React](https://www.compdf.com/guides/pdf-sdk/web/frameworks/react?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs), [Angular](https://www.compdf.com/guides/pdf-sdk/web/frameworks/angular?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs), [Next.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nextjs?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs), [Nuxt.js](https://www.compdf.com/guides/pdf-sdk/web/frameworks/nuxtjs?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs), and more — with just a few lines of code.
 
-[ComPDF SDK](https://www.compdf.com/?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit) seamlessly operates on [Web](https://www.compdf.com/web?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [Windows](https://www.compdf.com/windows?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [Android](https://www.compdf.com/android?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [iOS](https://www.compdf.com/ios?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [Mac](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), and [Server](https://www.compdf.com/server?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), with support for cross-platform frameworks such as [React Native](https://www.compdf.com/react-native?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [Flutter](https://www.compdf.com/flutter?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), etc.
-
-If you find this library helpful, please consider giving us a ⭐ **Star** on GitHub! Have feedback or questions? Join the conversation in our [Discussions](https://github.com/orgs/ComPDFKit/discussions).
+> If you find this library helpful, please consider giving us a ⭐ **Star** on GitHub! Have feedback or questions? Join the conversation in our [Discussions](https://github.com/orgs/ComPDFKit/discussions).
 
 ![webui](https://www.compdf.com/images/platform/web/webDemo@2x.png)
 
 **Why ComPDF SDK?**
 
-* **Easy to Integrate:** Integrate PDF functionalities easily with our powerful SDK and clear documentation and guides with few lines of code.
-  
-* **Fully Customizable UI:** Design a unique interface for your products with fully customizable UI source code by a high-performing SDK.
-  
-* **[Comprehensive PDF Features:](https://www.compdf.com/pdf-sdk/features-list?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit)** Supports generation, viewing, annotation, page editing, content editing, conversion, OCR, redaction, signing, forms, parsing, measurement, compression, comparison, color separation, batch processing, and more.
-  
-* **Faster Time-to-Market:** Comprehensive SDK libraries save your time and expenses and roll out your applications and projects.
-  
-* **High-quality Service:** We provide 24/7 professional one-to-one technical support, including onsite service and remote assistance via phone and email.
-  
+* **Easy to Integrate**: Clear docs and a powerful JavaScript API let you add PDF features in just a few lines of code.
 
-## Related
+* **Fully Customizable UI**: Ship your own look and feel with source-level control over every UI element.
 
-* Download [ComPDF SDK for Web](https://www.npmjs.com/package/@compdfkit_pdf_sdk/webviewer) in npm.
-  
-* Go to [ComPDF's Web Demo](https://www.compdf.com/webviewer/demo?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit) to experience how our WebViewer performs.
-  
-* Integrate ComPDF SDK for Web into [Salesforce](https://www.compdf.com/pdf-sdk/salesforce?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [SharePoint](https://www.compdf.com/pdf-sdk/sharepoint?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), [Microsoft Teams](https://www.compdf.com/contact-sales?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit), etc.
-  
-* [How to integrate ComPDF SDK for Web into a Vue.js project](https://www.compdf.com/blog/integrate-compdfkit-web-sdk-in-vuejs-app?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit)
-  
-* [ComPDF Standalone Deployment for Web](https://www.compdf.com/blog/compdfkit-standalone-deployment-for-web?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit)
-  
-* Recognize and extract data from PDFs with our online [Extract Demo](https://www.compdf.com/pdf-extract/demo?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit)
-  
+* **Comprehensive PDF Features**: View, annotate, edit, convert, OCR, redact, sign, compress, compare, and more — all in one SDK.
 
-## Prerequisites
+* **5×24 Expert Support**: One-to-one technical assistance via email, phone, and on-site service.
 
-To get started, you'll need:
+## Table of Contents
 
-* The latest stable version of Node.js.
+- [Supported Features](#supported-features)
+- [How to Make a Vue.js PDF Viewer App](#how-to-make-a-vuejs-pdf-viewer-app)
+- [Free Trial and License](#free-trial-and-license)
+- [Changelog](#changelog)
+- [Support](#support)
+- [Note](#note)
+- [Related](#related)
+
+## Supported Features
+
+* **Viewer**: 
   
-* A package manager compatible with npm.
+  - Fast and smooth PDF rendering and viewing
+  * Display Modes - single/double page, vertical & horizontal scrolling, cover mode, crop mode
+  * Text Search & Selection
+  * PDF Navigation - outlines, bookmarks
+
+* **Annotations**:
   
-* License Key: Get a [free 30-day license](https://www.compdf.com/pricing?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit) on our website to test the project.
+  * Notes - add longer comments with adjustable icon shape and color
+  
+  * Ink - freehand drawing with customizable color, opacity, line thickness
+  
+  * Text - add, move, resize text directly on page
+  
+  * Inspector - adjust annotation looks (line styles, borders, colors, opacity, font)
+  
+  * Comment on Annotations and Update Status
+  
+  * Import & Export & Flatten Annotations (XFDF, FDF, JSON)
+  
+  * Highlight, Underline, Strikeout, Squiggly
+  
+  * Shapes - Rectangle, Oval, Line, Arrow, Polygon, Polyline, Cloud
+  
+  * Stamps, Sound, Movie, File Attachment, Link, Distance, Perimeter, Area
 
+* **Document Editor**: 
+  
+  - Page manipulation - insert, delete, rotate, reorder, extract, crop
+  * Split PDF, Merge PDF
 
-## Getting Started
+* **Content Editor**: Edit PDF text and images directly like in Word
 
-1. Clone the repository:
+* **Signatures**: 
+  
+  - Electronic Signatures - draw, type, image signatures
+  * Digital Signatures - certificate-based signature validation
+
+* **Forms**: 
+  
+  - Process fillable and static PDF forms
+  * Form filling, form creation, form flattening
+
+* **Security**: 
+  
+  - Encryption - set open password, permission password
+  * Restrict printing, copying, editing
+
+* **Redaction**: Permanently remove sensitive content from PDFs
+
+* **Layers**: View, edit, display, lock, and export specific layers within a file
+
+* **Color Separation**: Identify color models like CMYK, PMS. Toggle color visibility and view details.
+
+* **Measurement**: Distance, area, perimeter measurement tools
+
+* **Compare Documents**: Side-by-side document comparison to highlight differences
+
+## How to Make a Vue.js PDF Viewer App
+
+### Prerequisites
+
+- Install Node.js version 18.3 or higher for creating Vue 3 project.
+- A package manager compatible with npm.
+- Apply the License Key: Contact [ComPDFKit's sales team](https://www.compdf.com/contact-sales?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs) to get a free 30-day license to test the project.
+
+### Create a New Project
+
+Create a new Vue.js project:
 
 ```bash
-git clone https://github.com/ComPDFKit/compdfkit-web-example-vuejs.git
-cd compdfkit-web-example-vuejs
+npm create vue@latest
+cd compdfkit-app
 ```
 
-2. Install the dependencies of the example project with npm:
+During setup, Vue.js will prompt you with a series of questions. For this example, choose the default options.
+
+### Add ComPDF for Web
+
+1. Install the webviewer package:
 
 ```bash
-npm install
+npm i @compdfkit_pdf_sdk/webviewer --save
 ```
 
+2. Copy the static resource files to your project's public folder:
 
+```bash
+cp -a ./node_modules/@compdfkit_pdf_sdk/webviewer/dist/. ./public/webviewer
+```
 
-## License
+### Display a PDF
 
-Replace the `<Input your license here>` field in the `src/components/WebViewer.vue` with the license you get from our Team.
+1. Add your PDF document to the `public/webviewer/example` directory.
 
-ComPDFKit for Web supports flexible licensing options, please contact [our sales team](mailto:support@compdf.com) to know more. Each license is only valid for a root domain name and any of its subdomains. However, any documents, sample code, or source code distribution from the released package of ComPDFKit PDF SDK to any third party is prohibited.
+2. Create `src/components/WebViewer.vue`:
 
+```vue
+<template>
+  <div id='webviewer' ref='viewer'></div>
+</template>
 
+<script setup>
+import { ref, onMounted } from 'vue'
+import WebViewer from '@compdfkit_pdf_sdk/webviewer'
 
-## Run the Example
+const viewer = ref(null)
+let docViewer = null
+
+onMounted(() => {
+  WebViewer.init({
+    path: '/',
+    pdfUrl: './example/developer_guide_web.pdf',
+    license: '<Input your license here>'
+  }, viewer.value).then((instance) => {
+    docViewer = instance.docViewer
+
+    docViewer.addEvent('documentloaded', async () => {
+      console.log('document loaded')
+    })
+  })
+})
+</script>
+
+<style>
+#webviewer {
+  height: 100vh;
+  overflow: hidden;
+}
+</style>
+```
+
+3. Update `src/App.vue` to include the WebViewer component:
+
+```vue
+<template>
+  <WebViewer />
+</template>
+
+<script setup>
+import WebViewer from './components/WebViewer.vue'
+</script>
+
+<style>
+#app {
+  display: block;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+</style>
+```
+
+### Run the App
 
 ```bash
 npm run dev
 ```
 
-You can now visit `http://localhost:5173` in your browser. Then you will be able to see the PDF file you want to display.
+Open `http://localhost:5173` on your browser.
 
+## Free Trial and License
 
+Replace the `<Input your license here>` field in the `src/components/WebViewer.vue` with the license you get from our Team.
+
+ComPDF SDK for Web supports flexible licensing options. You can [apply for a license online](https://www.compdf.com/pricing?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs) to use it, reducing the process of contacting the service team and saving you time. If you need more information, you can [contact our sales team](https://www.compdf.com/contact-sales?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs). Each license is valid only for the root domain name and any of its subdomains. 
+
+> *The license we provide on Github can only run the demo. If you want to integrate our Web PDF SDK into your own Vue.js project, please [apply for a free trial license](https://www.compdf.com/pricing?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs) on the website.*
+
+Please note that it is not allowed to distribute any documents, sample code, or source code from the ComPDF SDK package to third parties.
 
 ## Changelog
 
-Go to our [changelog](https://www.compdf.com/pdf-sdk/changelog-web?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit) to keep up with the latest updates, improvements, and bug fixes.
+Go to our [changelog](https://www.compdf.com/pdf-sdk/changelog-web?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs) to keep up with the latest updates, improvements, and bug fixes.
 
 ## Support
 
 ComPDF has a professional R&D team that produces comprehensive technical documentation and guides to help developers. Also, you can get an immediate response when reporting your problems to our support team.
 
-* For detailed information, please visit our [Guides](https://www.compdf.com/guides/pdf-sdk/web/overview?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit) page.
-  
-* For technical assistance, please reach out to our [Technical Support](https://www.compdf.com/support?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit).
-  
-* To get more details and an accurate quote, please contact our [Sales Team](https://compdf.com/contact-us?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit).
-  
+- For detailed information, please visit our [Guides](https://www.compdf.com/guides/pdf-sdk/web/overview?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs) page.
+
+- For technical assistance, please reach out to our [Technical Support](https://www.compdf.com/support?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs).
+
+- To get more details and an accurate quote, please contact our [Sales Team](https://compdf.com/contact-sales?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs).
 
 ## Note
 
-We are glad to announce that you can register a ComPDF API account for a [free trial](https://api.compdf.com/api/pricing?utm_source=github&utm_medium=compdfkit-web-example-vuejs&utm_campaign=compdfkit_web_example_vuejs_repo&ref_platform_id=github_compdfkit) to process 200+ API calls per month for free.
+We are glad to announce that you can register a ComPDF API account for a [free trial](https://api.compdf.com/api/pricing?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs) to process 200+ API calls per month for free.
+
+## Related
+
+* Download [ComPDF SDK for Web](https://www.npmjs.com/package/@compdfkit_pdf_sdk/webviewer) in npm.
+
+* [Online Demo of ComPDF SDK](https://www.compdf.com/webviewer/demo?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs)
+
+* Integrate ComPDF SDK for Web into [Salesforce](https://www.compdf.com/pdf-sdk/salesforce?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs), [SharePoint](https://www.compdf.com/pdf-sdk/sharepoint?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs), [Microsoft Teams](https://www.compdf.com/contact-sales?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs), etc.
+
+* [How to integrate ComPDF SDK for Web into a Vue.js project](https://www.compdf.com/blog/integrate-compdfkit-web-sdk-in-vuejs-app?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs)
+
+* [ComPDF SDK for Web - Standalone Deployment](https://www.compdf.com/blog/compdfkit-standalone-deployment-for-web?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs)
+
+* Recognize and extract data from PDFs with our online [Extract Demo](https://www.compdf.com/pdf-extract/demo?utm_source=github_readme_web_example_vuejs&utm_medium=referral&utm_campaign=github_readme_web_example_vuejs)
